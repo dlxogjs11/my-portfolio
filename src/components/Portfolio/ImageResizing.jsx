@@ -18,6 +18,7 @@ export default function ImageResizing() {
       reader.onload = (event) => {
         setImage(event.target.result);
       };
+      console.log("Hi");
       reader.readAsDataURL(file);
     }
   };
